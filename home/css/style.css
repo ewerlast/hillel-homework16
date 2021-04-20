@@ -1,0 +1,28 @@
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTorb6TjJKKOzFHSRVBgH3JNS1XC7ENYMuwVQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    width: 600px;
+    min-height: 500px;
+    background-color: cadetblue;
+    margin: 0 auto;
+}
+
+.wrapper-input {
+    margin: 10px auto;
+    /* padding-top: 5px; */
+    width: 75%;
+    height: 50px;
+    background-color: rgb(109, 96, 156);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button {
+    width: 80px;
+    h50px
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="script.js" defer></script>
+
+    <style>
+        body {
+            padding: 10px;
+        }
+
+        .login-form {
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            width: 400px;
+            border: 1px solid black;
+        }
+
+        .login-form span {
+            width: 100px;
+        }
+
+        .login-form .input-field {
+            display: flex;
+            align-items: center;
+        }
+
+        .login-form input {
+            margin-left: 10px;
+        }
+
+        .login-form button {
+            margin: 8px 0;
+        }
+
+        .error {
+            border: 1px solid red;
+        }
+
+        .blue {
+            background-color: #0000ff;
+            padding: 50px;
+        }
+
+        .yellow {
+            background-color: yellow;
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <form class="login-form">
+        <div class="input-field">
+            <span>Email</span>
+            <input type="text" class="validate" name="email" value="test@test.com">
+        </div>
+        <div class="input-field">
+            <span>Password</span>
+            <input type="password" class="validate" name="password" value="123456">
+        </div>
+        <button type="button" class="btn">Show password</button>
+        <button type="submit" class="btn">Login</button>
+    </form>
+    <div id="container">
+        <p>The first paragraph.</p>
+        <p>The second paragraph.</p>
+        <p>The third paragraph.</p>
+    </div>
+
+<div class="blue">
+    <div class="yellow"></div>
+</div>
+</body>
+</html>
